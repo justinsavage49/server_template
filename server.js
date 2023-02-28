@@ -1,4 +1,4 @@
-//boilerplate imports/declarations
+//Standard imports/declarations
 const express = require('express')
 const http = require('http');
 const app = express();
@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/styles.css')
 })
 
-//This function delivers text when a fetch request is made at '/server-text'
+//This function serves text when a request is made at '/server-text'
 app.get('/server-text', (req, res) => {
     res.json("This text was requested from the server")
 })
