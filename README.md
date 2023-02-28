@@ -9,7 +9,7 @@
 - index.css
 - server.js
 
-### CREATE PROJECT (run in server_template)
+### SETUP ENV (run in server_template)
 - npm init
 - npm install express
 
