@@ -1,16 +1,17 @@
-#SKELETON FRONT-BACK WEBPAGE   
+# Skeleton front-back webpage  
 
-##CREATE DIR server_template
+### CREATE DIR
+- mkdir server_template
 
-##CREATE FILES (or copy)
-index.html
-index.js
-index.css
-server.js
+### CREATE FILES (or copy into server_template)
+- index.html
+- index.js
+- index.css
+- server.js
 
-##CREATE PROJECT
-npm init
-npm install express
+### SETUP ENV (run in server_template)
+- npm init
+- npm install express
 
-##RUN SERVER
-node server.js
+### RUN SERVER
+- node server.js
