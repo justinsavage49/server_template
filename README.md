@@ -1,16 +1,16 @@
-#SKELETON FRONT-BACK WEBPAGE   
+SKELETON FRONT-BACK WEBPAGE   
 
-##CREATE DIR server_template
+CREATE DIR (server_template)
 
-##CREATE FILES (or copy)
+CREATE FILES (or copy into server_template)
 index.html
 index.js
 index.css
 server.js
 
-##CREATE PROJECT
+CREATE PROJECT (run in server_template)
 npm init
 npm install express
 
-##RUN SERVER
+RUN SERVER
 node server.js
